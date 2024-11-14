@@ -26,7 +26,3 @@ SET UP MOTION DETECTION ACTIONS
 - install FTP which will capture images to a remote FTP
 - modify the Motion Configuration with 'sudo nano /etc/motion/motion.conf
 - we had some trouble with ftp server
-- in the 
-
-
-
