@@ -1,5 +1,7 @@
 Week 1 Journal  
 
+Thursday, November 14, 2024.
+
 We began setting up the security camera using a Raspberry Pi 4.  
 
 Steps Taken:  
