@@ -1,8 +1,8 @@
 Week 1 journal:
 
-we started doing the security camera with raspberry pi 4 terminal: 
+we started doing the security camera with a Raspberry Pi 4 terminal: 
 
-- setting up the raspberry pi 4 to the monitor
+- setting up the Raspberry Pi 4 to the monitor
 - open terminal.
 
 INSTALL MOTION
@@ -11,18 +11,18 @@ INSTALL MOTION
 
 CONFIGURE MOTION
 - Configure motion for motion detection with 'sudo nano /etc/motion/motion.conf
-- then we edited daemon off to deamon on because runs motionn as a backgroud service.(A daemon is a background process running without user interaction)
+- then we edited daemon off to deamon on because it runs motion as a background service. (A daemon is a background process running without user interaction)
 -we changed framerate to 30.(it was 15) for video quality adjust
-- we changed webcontrol_localhost on to off for enabling remote access to the web control interface
+- we changed webcontrol_localhost on to off to enable remote access to the web control interface
 - changed stream_localhost on to off because allows external devices to access the live stream
--for threshold it sets the sensitivity for motion detection
+-for threshold, it sets the sensitivity for motion detection
 
 ENABLE THE MOTION SERVICE
--sudo systemctl enable motion to start running in the background as soon as raspberry pi is powered on 
+-sudo systemctl enable motion to start running in the background as soon as Raspberry Pi is powered on 
 -sudo systemctl start motion for starting continuous monitoring and motion detection 
 
 SET UP MOTION DETECTION ACTIONS
-- first create the motion_events directory if you do not have it for saving images videos there
+- first create the motion_events directory if you do not have it for saving images and videos there
 - install FTP which will capture images to a remote FTP
 - modify the Motion Configuration with 'sudo nano /etc/motion/motion.conf
-- we had some trouble with ftp server
+- we had some trouble with FTP server. (we tried to fix it with the help of ChatGPT and youtube but we are still trying to figure out how to do it) 
