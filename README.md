@@ -20,3 +20,9 @@ Camera.
 Set up the Raspberry Pi hardware.
 Install the required software tools.
 Access the surveillance system through the provided interface.
+
+**Solution #1**
+For MotionEyeOS, a camera-focused OS, very easy to set up with a user-friendly interface 
+
+**Solution #2**
+For Debian with manual Configuration, offers more control and customization
