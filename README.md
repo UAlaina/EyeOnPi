@@ -29,8 +29,8 @@ For MotionEye, a camera-focused OS, very easy to set up with a user-friendly int
 
 ### Videos and website that was used: 
 
-# Raspberry Pi Imager:
+**Raspberry Pi Imager:**
 https://www.raspberrypi.com/software/
 
-# MotionEye:
+**MotionEye:**
 https://pimylifeup.com/raspberry-pi-security-camera/
