@@ -22,10 +22,10 @@ Install the required software tools.
 Access the surveillance system through the provided interface.
 
 **Solution #1**
-For Debian with manual Configuration, offers more control and customization.
+For MotionEye, a camera-focused open-source software, very easy to set up with a user-friendly interface, using commands. This has all settings and configuration on web interface.
 
 **Solution #2**
-For MotionEye, a camera-focused OS, very easy to set up with a user-friendly interface.
+For Motion, another camera-focused software, set up with commands. This has all settings and configuration in a motion.conf file that would be edited with bash script language. 
 
 ### Videos and website that was used: 
 
